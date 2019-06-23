@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>التقارير</title>
+  </head>
+  <body>
+    <h1 class="text-center mt-3">التقارير</h1>
+    <h5 class="text-center mx-4 my-4">
+    لإصدار تقاريرك الخاصة يرجى إختيار أحد الخيارات التالية
+    </h5>
+    <div class="container" style="border:0.5px solid #efefef;padding:15px;">
+      <form>
+        <div class="row">
+          <div class="form-group col-md-4">
+            <label class="float-right">الجنس</label>
+            <select id="inputState" class="form-control" dir="rtl">
+              <option selected>إختر الجنس</option>
+              <option>ذكر</option>
+              <option>أنثى</option>
+            </select>
+          </div>
+          <div class="form-group col-md-4">
+            <label class="float-right">المنطقة</label>
+            <select id="inputState" class="form-control" dir="rtl">
+              <option selected>إختر المنطقة</option>
+              <option>منطقة1</option>
+              <option>منطقة2</option>
+              <option>منطقة3</option>
+            </select>
+          </div>
+          <div class="form-group col-md-4">
+            <label class="float-right">المحافظة</label>
+            <select id="inputState" class="form-control" dir="rtl">
+              <option selected>إختر المحافظة</option>
+              <option>محافظة1</option>
+              <option>محافظة2</option>
+              <option>محافظة3</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="form-group col-md-4">
+            <label class="float-right">حالة الإستمارة</label>
+            <select id="inputState" class="form-control" dir="rtl">
+              <option selected>إختر الحالة</option>
+              <option>المنتمين</option>
+              <option>قيد المراجعة</option>
+              <option>مهملة</option>
+            </select>
+          </div>
+          <div class="form-group col-md-4">
+            <label class="float-right">الراغبين بالإنضمام إلى مؤسسة</label>
+            <select id="inputState" class="form-control" dir="rtl">
+              <option selected>إختر المؤسسة</option>
+              <option>مؤسسة1</option>
+              <option>مؤسسة2</option>
+              <option>مؤسسة3</option>
+            </select>
+          </div>
+          <div class="form-group col-md-4">
+            <label class="float-right">إسم المنتمي</label>
+            <input type="text" class="form-control text-right" placeholder="يرجى إدخال إسم المنتمي">
+          </div>
+        </div>
+          <div class="row">
+            <div class="col-md-4">
+              <label class="float-right">إلى تأريخ</label>
+              <input type="date" class="form-control">
+            </div>
+            <div class="col-md-4">
+              <label class="float-right">من تأريخ</label>
+              <input type="date" class="form-control">
+            </div>
+            <div class="col-md-4 mt-5">
+                <label class="float-right">تأريخ تنظيم الإستمارة</label>
+            </div>
+          </div>
+          <br>
+        <button type="submit" class="btn btn-primary">إصدار التقرير</button>
+      </form>
+    </div>
+    <div class="container mt-5" style="border:0.5px solid #efefef;padding:15px;">
+    <table class="table table-striped" style="border: none !important;">
+        <thead>
+            <tr class="text-center">
+            <th scope="col">التفاصيل</th>
+            <th scope="col">الصورة</th>
+            <th scope="col">الجنس</th>
+            <th scope="col">المؤسسة المرغوبة</th>
+            <th scope="col">التأريخ</th>
+            <th scope="col">العنوان</th>
+            <th scope="col">المنطقة</th>
+            <th scope="col">المحافظة</th>
+            <th scope="col">الإسم</th>
+            <th scope="col">#</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="text-center">
+              <td><i class="fa fa-list-alt"></i></td>
+              <td><img class="img-responsive" style="width:40px;height:35px" src="https://www.speaknetworks.com/wp-content/uploads/2018/11/avatar-m1.png" alt=""></td>
+              <td>ذكر</td>
+              <td>المؤسسة1</td>
+              <td>23/06/2019</td>
+              <td>عنوان1</td>
+              <td>منطقة1</td>
+              <td>محافظة1</td>
+              <td>أحمد عدنان</td>
+              <th scope="row">1</th>
+            </tr>
+
+            <tr class="text-center">
+              <td><i class="fa fa-list-alt"></i></td>
+              <td><img class="img-responsive" style="width:40px;height:35px" src="https://keyholder.bz/img/avatar/av_4.png" alt=""></td>
+              <td>أنثى</td>
+              <td>المؤسسة2</td>
+              <td>24/06/2019</td>
+              <td>عنوان2</td>
+              <td>منطقة2</td>
+              <td>محافظة2</td>
+              <td>مروة محمد</td>
+              <th scope="row">2</th>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
